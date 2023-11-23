@@ -1,0 +1,23 @@
+ Scanner x = new Scanner (System.in);
+    
+        
+        int numAskterisk;
+        System.out.println("Enter number of askterisk");
+        numAskterisk = x.nextInt();
+        
+        int totalAsterisk = numAskterisk ;
+	int total = 0;
+        
+        for (int row = 0; row < 15; ++row){
+            total += totalAsterisk;
+        for (int amount = 0; amount < totalAsterisk; ++amount){
+            System.out.println('*');
+        
+            System.out.println("");
+            totalAsterisk += numAskterisk;
+       
+        }
+      }  
+        System.out.println("What are your " + total + "hashtags in life");
+        
+        return;
